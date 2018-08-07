@@ -1,15 +1,18 @@
 {
-  "name": "week-6-validation",
+  "name": "f2e-validation",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist -m \"Auto-generated update\""
   },
   "dependencies": {
+    "moment": "^2.22.2",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
+    "vuetify": "^1.1.9",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -17,8 +20,14 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
     "@vue/cli-service": "^3.0.0-rc.10",
     "@vue/eslint-config-airbnb": "^3.0.0-rc.10",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.16"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie < 11"
+  ]
 }

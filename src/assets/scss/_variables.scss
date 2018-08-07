@@ -1,0 +1,36 @@
+$font-size: 1rem; // 16px
+
+$line-height: 1.5;
+
+$spacing: 1rem; // 16px
+
+$font-size-map: (
+  'b': $font-size,
+);
+$line-height-map: (
+  'b': $line-height,
+);
+$spacing-map: (
+  'b': $spacing,
+);
+
+
+$color-text: #333;
+$color-text-light: #9B9B9B;
+
+$color-primary: #00BCD4;
+$color-secondary: #4DD0E1;
+
+$color-bg: #F2F6FC;
+
+$color-line: #D7D7D7;
+
+// media query 斷點範圍
+$breakpoint-areas: (
+  large: '(min-width: 1240px)',
+  desktop: '(min-width: 992px)',
+  tablet-up: '(min-width: 768px)',
+  tablet: '(max-width: 991.98px) and (min-width: 768px)',
+  tablet-down: '(max-width: 991.98px)',
+  mobile: '(max-width: 767.98px)',
+);
